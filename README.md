@@ -4,9 +4,20 @@
 
 ***
 
-##### BEWARE! uBlock Origin is COMPLETELY UNRELATED to the web site ublock.org**
+##### uBlock Simple
 
-The donations sought by the [individual](https://github.com/chrisaljoudi/) behind `ublock.org` (_"to keeps uBlock development possible"_, [a misrepresentation](https://en.wikipedia.org/wiki/UBlock_Origin#uBlock_.28ublock.org.29)) are _not_ benefiting any of those who contributed most to create uBlock Origin ([developers](https://github.com/gorhill/uBlock/graphs/contributors), [translators](https://crowdin.com/project/ublock), and all those who put efforts in opening detailed issues). For the differences between uBlock Origin and uBlock, see the unbiased [Wikipedia article](https://en.wikipedia.org/wiki/UBlock_Origin).
+uBlock Simple is a very close variation to uBlock Origin. As of right now, the only difference is that the whitelist site button
+becomes a global on/off switch instead. I started this project out of a personal pet peeve, that I dislike whitelisting random
+sites. (usually because a site asks to be whitelisted or I can't see their content) I'd much rather globally switch it off for a
+while, browse sites, and globally switch it back on later. This way I know that I'm safe from that site in the future (should they
+be infected by malware or other things that would otherwise be blocked by uBlock).
+
+I don't know if there is demand for this, from other people who are like me. If there is demand, I may put in more effort for
+more other features that I'd like in this project (that uBlock Origin will not make).
+
+Everything below here in this README file is currently as it is as on the uBlock Origin project. If it turns out there is demand
+for this and this project will be taken more seriously, I will update it with information, build instructions, or even release
+to other browsers. (currently only available on Chrome)
 
 ***
 
