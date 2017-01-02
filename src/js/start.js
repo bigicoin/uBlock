@@ -269,7 +269,8 @@ var onAdminSettingsRestored = function() {
         'netWhitelist': µb.netWhitelistDefault,
         'selfie': null,
         'selfieMagic': '',
-        'version': '0.0.0.0'
+        'version': '0.0.0.0',
+        'globalSwitch': 1
     };
 
     toFetch(µb.localSettings, fetchableProps);

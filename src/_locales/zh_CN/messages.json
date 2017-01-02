@@ -43,6 +43,10 @@
     "message":"高级设置",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"单击：对此网站禁用\/启用 uBlock₀。\n\nCtrl + 单击：在此页面上禁用 uBlock₀。",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

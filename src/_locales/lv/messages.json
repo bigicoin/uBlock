@@ -43,6 +43,10 @@
     "message":"Advanced settings",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"Klikšķis: atslēgt\/ieslēgt uBlock₀ šajā vietnē.\n\nCtrl+klikšķis: atslēgt uBlock₀ tikai šai lapai.",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

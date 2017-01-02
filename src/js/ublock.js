@@ -108,6 +108,17 @@ var matchBucket = function(url, hostname, bucket, start) {
 
 /******************************************************************************/
 
+µBlock.toggleGlobalSwitch = function(newState) {
+    if (this.globalSwitch == 0) {
+        this.globalSwitch = 1;
+    } else {
+        this.globalSwitch = 0;
+    }
+    vAPI.storage.set({'globalSwitch': this.globalSwitch});
+};
+
+/******************************************************************************/
+
 µBlock.toggleNetFilteringSwitch = function(url, scope, newState) {
     var currentState = this.getNetFilteringSwitch(url);
     if ( newState === undefined ) {

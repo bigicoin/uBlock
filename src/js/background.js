@@ -226,6 +226,8 @@ return {
     scriptlets: {
     },
 
+    globalSwitch: 1,
+
     // so that I don't have to care for last comma
     dummy: 0
 };

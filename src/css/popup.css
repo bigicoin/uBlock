@@ -136,7 +136,16 @@ p {
     font-size: 120%;
     }
 #switch {
+    display: none;
+    }
+#switchGlobal, #switch {
     margin: 8px 0;
+    }
+#switchGlobal .fa {
+    color: #0046ff;
+    cursor: pointer;
+    font-size: 700%;
+    margin: 0;
     }
 #switch .fa {
     color: #0046ff;
@@ -144,11 +153,23 @@ p {
     font-size: 700%;
     margin: 0;
     }
-#switch .fa:hover {
+#switchGlobal .fa:hover, #switch .fa:hover {
     opacity: 0.9;
     }
-body.off #switch .fa {
+body.off #switch .fa, body.off #switchGlobal .fa {
     color: #ccc;
+    }
+body #switch .word_on, body #switchGlobal .word_on {
+    display: initial;
+    }
+body.off #switch .word_on, body.off #switchGlobal .word_on {
+    display: none;
+    }
+body #switch .word_off, body #switchGlobal .word_off {
+    display: none;
+    }
+body.off #switch .word_off, body.off #switchGlobal .word_off {
+    display: initial;
     }
 #page-blocked {
     font-size: 1.25em;

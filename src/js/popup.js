@@ -548,6 +548,21 @@ messaging.addChannelListener('popup', onPopupMessage);
 
 /******************************************************************************/
 
+var toggleGlobalSwitch = function(ev) {
+    messaging.send(
+        'popupPanel',
+        {
+            what: 'toggleGlobal',
+            state: !uDom('body').toggleClass('off').hasClass('off'),
+            tabId: popupData.tabId
+        }
+    );
+
+    hashFromPopupData();
+};
+
+/******************************************************************************/
+
 var toggleNetFilteringSwitch = function(ev) {
     if ( !popupData || !popupData.pageURL ) {
         return;
@@ -964,6 +979,7 @@ var onHideTooltip = function() {
     }
     getPopupData(tabId);
 
+    uDom('#switchGlobal').on('click', toggleGlobalSwitch);
     uDom('#switch').on('click', toggleNetFilteringSwitch);
     uDom('#gotoPick').on('click', gotoPick);
     uDom('a[href]').on('click', gotoURL);

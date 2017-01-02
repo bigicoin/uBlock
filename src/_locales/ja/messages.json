@@ -43,6 +43,10 @@
     "message":"詳細設定",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"uBlock₀ の有効 \/ 無効を切り替えます。\n\nクリック: サイト全体  \nCtrl+クリック: このページのみ",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

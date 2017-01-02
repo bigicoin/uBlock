@@ -474,7 +474,7 @@ PageStore.prototype.createContextFromFrameHostname = function(frameHostname) {
 /******************************************************************************/
 
 PageStore.prototype.getNetFilteringSwitch = function() {
-    return µb.tabContextManager.mustLookup(this.tabId).getNetFilteringSwitch();
+    return µb.globalSwitch == 1 && µb.tabContextManager.mustLookup(this.tabId).getNetFilteringSwitch();
 };
 
 /******************************************************************************/
@@ -488,6 +488,13 @@ PageStore.prototype.getSpecificCosmeticFilteringSwitch = function() {
 PageStore.prototype.getGenericCosmeticFilteringSwitch = function() {
     return this.noGenericCosmeticFiltering !== true &&
            this.noCosmeticFiltering !== true;
+};
+
+/******************************************************************************/
+
+PageStore.prototype.toggleGlobalSwitch = function(state) {
+    µb.toggleGlobalSwitch(state);
+    this.netFilteringCache.empty();
 };
 
 /******************************************************************************/

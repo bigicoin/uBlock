@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Origin",
+    "name": "uBlock Simple",
     "version": "1.10.5.5",
 
     "default_locale": "en",
@@ -16,7 +16,7 @@
             "19": "img/browsericons/icon19.png",
             "38": "img/browsericons/icon38.png"
         },
-        "default_title": "uBlock Origin",
+        "default_title": "uBlock Simple",
         "default_popup": "popup.html"
     },
 

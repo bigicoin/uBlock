@@ -43,6 +43,10 @@
     "message":"Lisäasetukset",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"Painallus: poista käytöstä\/ota käyttöön uBlock₀ tällä sivustolla.\n\nCtrl+painallus: poista uBlock₀ käytöstä vain tällä sivulla.",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

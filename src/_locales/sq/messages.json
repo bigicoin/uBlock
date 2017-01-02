@@ -43,6 +43,10 @@
     "message":"Parametra të avancuar",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"Klikoj: uBlock₀ bëhet joaktiv\/aktiv te ky uebsajti.\n\nKlikoj+Ctrl: uBlock₀ bëhet joaktiv vetëm te kjo faqja.",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

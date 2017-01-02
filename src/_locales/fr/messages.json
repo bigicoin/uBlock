@@ -43,6 +43,10 @@
     "message":"Paramètres avancés",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"Clic : Désactiver\/Activer uBlock₀ pour ce site.\n\nCtrl+clic : Désactiver uBlock₀ uniquement sur cette page.",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

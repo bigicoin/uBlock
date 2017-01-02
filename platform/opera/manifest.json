@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Origin",
+    "name": "uBlock Simple",
     "version": "1.9.15.101",
 
     "default_locale": "en",

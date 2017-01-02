@@ -43,6 +43,10 @@
     "message":"Ρυθμίσεις για προχωρημένους",
     "description":"Title for the advanced settings page"
   },
+  "popupGlobalPowerSwitchInfo":{
+    "message":"Click: disable\/enable uBlock.",
+    "description":"English: Click: disable\/enable uBlock."
+  },
   "popupPowerSwitchInfo":{
     "message":"Κλικ: απενεργοποίηση\/ενεργοποίηση του uBlock₀ για αυτόν τον ιστότοπο.\n\nCtrl+κλικ: απενεργοποίηση του uBlock₀ μόνο για αυτήν την σελίδα.",
     "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."

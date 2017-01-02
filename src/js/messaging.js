@@ -429,6 +429,14 @@ var onMessage = function(request, sender, callback) {
         response = popupDataFromTabId(request.tabId);
         break;
 
+    case 'toggleGlobal':
+        pageStore = µb.pageStoreFromTabId(request.tabId);
+        if ( pageStore ) {
+            pageStore.toggleGlobalSwitch(request.state);
+            µb.updateBadgeAsync(request.tabId);
+        }
+        break;
+
     case 'toggleNetFiltering':
         pageStore = µb.pageStoreFromTabId(request.tabId);
         if ( pageStore ) {
