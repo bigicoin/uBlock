@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Simple",
+    "name": "simpleBlock",
     "version": "1.9.15.101",
 
     "applications": {

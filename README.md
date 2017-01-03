@@ -4,9 +4,9 @@
 
 ***
 
-##### uBlock Simple
+##### simpleBlock
 
-uBlock Simple is a very close variation to uBlock Origin. As of right now, the only difference is that the whitelist site button
+simpleBlock is a very close variation to uBlock Origin. As of right now, the only difference is that the whitelist site button
 becomes a global on/off switch instead. I started this project out of a personal pet peeve, that I dislike whitelisting random
 sites. (usually because a site asks to be whitelisted or I can't see their content) I'd much rather globally switch it off for a
 while, browse sites, and globally switch it back on later. This way I know that I'm safe from that site in the future (should they
