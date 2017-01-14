@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"simpleBlock",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Dashbord",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"simpleBlock — Dashbord",
+    "description":"English: simpleBlock — Dashboard"
   },
   "settingsPageName":{
     "message":"Innstillinger",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Logg",
+    "message":"simpleBlock — Logg",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -48,8 +48,8 @@
     "description":"English: Click: disable\/enable uBlock."
   },
   "popupPowerSwitchInfo":{
-    "message":"Klikk: Deaktiver\/aktiver uBlock₀ for dette nettstedet.\n\nCtrl+klikk: Deaktiver uBlock₀ bare på denne siden.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Klikk: Deaktiver\/aktiver simpleBlock for dette nettstedet.\n\nCtrl+klikk: Deaktiver simpleBlock bare på denne siden.",
+    "description":"English: Click: disable\/enable simpleBlock for this site.\n\nCtrl+click: disable simpleBlock only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"forespørsler blokkert",
@@ -288,7 +288,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Dette alternativet aktiverer analyseringen og bruken av <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatible filtre for &ldquo;elementskjuling&rdquo;<\/a>. Disse filtrene er i hovedsak kosmetiske, de tjener den hensikt å skjule elementer i en nettside som anses for å være en visuell ulempe, og som ikke blokkeres av den nettforespørselsbaserte filtreringsmotoren.<\/p><p>Aktivering av denne funksjonen øker minnebruken til <i>uBlock₀<\/i>.<\/p>",
+    "message":"<p>Dette alternativet aktiverer analyseringen og bruken av <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatible filtre for &ldquo;elementskjuling&rdquo;<\/a>. Disse filtrene er i hovedsak kosmetiske, de tjener den hensikt å skjule elementer i en nettside som anses for å være en visuell ulempe, og som ikke blokkeres av den nettforespørselsbaserte filtreringsmotoren.<\/p><p>Aktivering av denne funksjonen øker minnebruken til <i>simpleBlock<\/i>.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -296,7 +296,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Generelle kosmetiske filtre er de kosmetiske filtrene som er ment å brukes på alle nettsteder.<p>Selv om de håndteres effektivt av uBlock₀, kan generelle kosmetiske filtre likevel ende opp med å bidra til målbar ekstra minne- og prosessorbruk på noen nettsider, særlig de store og de som er åpne lenge.<p>Aktivering av dette alternativet vil eliminere ekstra minne- og prosessorbruk på nettsider grunnet håndteringen av generelle kosmetiske filtre, og også redusere minnebruken til selve uBlock₀.<p>Det anbefales å aktivere dette alternativet på mindre kraftige enheter.",
+    "message":"<p>Generelle kosmetiske filtre er de kosmetiske filtrene som er ment å brukes på alle nettsteder.<p>Selv om de håndteres effektivt av simpleBlock, kan generelle kosmetiske filtre likevel ende opp med å bidra til målbar ekstra minne- og prosessorbruk på noen nettsider, særlig de store og de som er åpne lenge.<p>Aktivering av dette alternativet vil eliminere ekstra minne- og prosessorbruk på nettsider grunnet håndteringen av generelle kosmetiske filtre, og også redusere minnebruken til selve simpleBlock.<p>Det anbefales å aktivere dette alternativet på mindre kraftige enheter.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -572,7 +572,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Alle dine innstillinger vil bli overskrevet med data sikkerhetskopiert {{time}}, og uBlock₀ vil starte på nytt.\n\nOverskrive alle eksisterende innstillinger med sikkerhetskopierte data?",
+    "message":"Alle dine innstillinger vil bli overskrevet med data sikkerhetskopiert {{time}}, og simpleBlock vil starte på nytt.\n\nOverskrive alle eksisterende innstillinger med sikkerhetskopierte data?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -580,7 +580,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Alle dine innstillinger blir fjernet, og uBlock₀ vil starte på nytt.\n\nTilbakestille uBlock₀ til opprinnelige innstillinger?",
+    "message":"Alle dine innstillinger blir fjernet, og simpleBlock vil starte på nytt.\n\nTilbakestille simpleBlock til opprinnelige innstillinger?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -588,7 +588,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Legge til følgende nettadresse i din egendefinerte filterliste?\n\nTittel: \"{{title}}\"\nNettadresse: {{url}}",
+    "message":"simpleBlock: Legge til følgende nettadresse i din egendefinerte filterliste?\n\nTittel: \"{{title}}\"\nNettadresse: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -625,11 +625,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"av",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'simpleBlock (off)'"
   },
   "docblockedPrompt1":{
     "message":"uBlock Origin har forhindret lasting av følgende side:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "description":"English: simpleBlock has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"På grunn av følgende filter:",

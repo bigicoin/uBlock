@@ -60,5 +60,5 @@
         "http://*/*",
         "https://*/*"
     ],
-    "short_name": "uBlock₀"
+    "short_name": "simpleBlock"
 }

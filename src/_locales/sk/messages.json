@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"simpleBlock",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Ovládací panel",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"simpleBlock — Ovládací panel",
+    "description":"English: simpleBlock — Dashboard"
   },
   "settingsPageName":{
     "message":"Nastavenia",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Zaznamenávač",
+    "message":"simpleBlock — Zaznamenávač",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -49,7 +49,7 @@
   },
   "popupPowerSwitchInfo":{
     "message":"Kliknutie: zakázať\/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať uBlock len pre túto stránku.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "description":"English: Click: disable\/enable simpleBlock for this site.\n\nCtrl+click: disable simpleBlock only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"zablokované požiadavky",
@@ -296,7 +296,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich uBlock₀ používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia uBlock₀ na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
+    "message":"<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich simpleBlock používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia simpleBlock na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -625,11 +625,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"vypnutý",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'simpleBlock (off)'"
   },
   "docblockedPrompt1":{
     "message":"uBlock Origin zabránil načítaniu nasledujúcej stránky:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "description":"English: simpleBlock has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Kvôli nasledujúcemu filtru",

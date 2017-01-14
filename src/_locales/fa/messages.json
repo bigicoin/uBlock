@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"simpleBlock",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — داشبورد",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"simpleBlock — داشبورد",
+    "description":"English: simpleBlock — Dashboard"
   },
   "settingsPageName":{
     "message":"تنظیمات",
@@ -48,8 +48,8 @@
     "description":"English: Click: disable\/enable uBlock."
   },
   "popupPowerSwitchInfo":{
-    "message":"کلیک: غیر فعال\/ فعال کردن uBlock₀ برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن uBlock₀ فقط برای همین صفحه.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"کلیک: غیر فعال\/ فعال کردن simpleBlock برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن simpleBlock فقط برای همین صفحه.",
+    "description":"English: Click: disable\/enable simpleBlock for this site.\n\nCtrl+click: disable simpleBlock only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"درخواست مسدود شده",
@@ -296,7 +296,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by uBlock₀, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of uBlock₀ itself.<p>It is recommended to enable this option on less powerful devices.",
+    "message":"<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by simpleBlock, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of simpleBlock itself.<p>It is recommended to enable this option on less powerful devices.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -428,7 +428,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"لیست شما از هاست هایی که uBlock₀ در آنها غیرفعال خواهد شد. یک ورودی در هر خط. هاست های نامعتبر بدون اشاره ای نادیده گرفته می شوند.",
+    "message":"لیست شما از هاست هایی که simpleBlock در آنها غیرفعال خواهد شد. یک ورودی در هر خط. هاست های نامعتبر بدون اشاره ای نادیده گرفته می شوند.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -572,7 +572,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و uBlock₀ مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
+    "message":"تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و simpleBlock مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -625,11 +625,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"خاموش",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'simpleBlock (off)'"
   },
   "docblockedPrompt1":{
     "message":"ublock از بارگذاری این صفحات جلوگیری کرده:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "description":"English: simpleBlock has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"بخاطر فیلتر زیر",

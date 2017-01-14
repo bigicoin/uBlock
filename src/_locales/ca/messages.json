@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"simpleBlock",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Tauler de control",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"simpleBlock — Tauler de control",
+    "description":"English: simpleBlock — Dashboard"
   },
   "settingsPageName":{
     "message":"Configuració",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Registre de peticions de xarxa",
+    "message":"simpleBlock — Registre de peticions de xarxa",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -49,7 +49,7 @@
   },
   "popupPowerSwitchInfo":{
     "message":"Clic: habilita\/inhabilita l'µBlock per a aquest lloc.\n\nCtrl+clic: inhabilita l'µBlock només en aquesta pàgina.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "description":"English: Click: disable\/enable simpleBlock for this site.\n\nCtrl+click: disable simpleBlock only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"sol·licituds bloquejades",
@@ -296,7 +296,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Els Filtres cosmètics genèrics són filtres que no s'apliquen a tots els llocs web.<p>Tot i que l'uBlock₀ els gestiona de manera eficient, aquests filtres encara poden contribuir a un augment d'ús de la memòria o sobrecàrrega de la CPU en algunes pàgines web, especialment si tenen molt contingut, elements d'animació o temps real.<p>En habilitar aquesta opció s'elimina el risc de sobrecàrrega a la CPU i excés d'ús de la memòria com a resultat de la manipulació de filtres cosmètics genèrics i també es redueix el consum de memòria de l'uBlock₀.<p>Es recomana habilitar aquesta opció en dispositius poc potents.",
+    "message":"<p>Els Filtres cosmètics genèrics són filtres que no s'apliquen a tots els llocs web.<p>Tot i que l'simpleBlock els gestiona de manera eficient, aquests filtres encara poden contribuir a un augment d'ús de la memòria o sobrecàrrega de la CPU en algunes pàgines web, especialment si tenen molt contingut, elements d'animació o temps real.<p>En habilitar aquesta opció s'elimina el risc de sobrecàrrega a la CPU i excés d'ús de la memòria com a resultat de la manipulació de filtres cosmètics genèrics i també es redueix el consum de memòria de l'simpleBlock.<p>Es recomana habilitar aquesta opció en dispositius poc potents.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -625,11 +625,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"desactivat",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'simpleBlock (off)'"
   },
   "docblockedPrompt1":{
     "message":"L'ublock ha rebutjat contingut d'aquest web:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "description":"English: simpleBlock has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Detectat per aquest filtre",

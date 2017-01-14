@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"simpleBlock",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Panelo",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"simpleBlock — Panelo",
+    "description":"English: simpleBlock — Dashboard"
   },
   "settingsPageName":{
     "message":"Agordoj",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Protokolilo",
+    "message":"simpleBlock — Protokolilo",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -48,8 +48,8 @@
     "description":"English: Click: disable\/enable uBlock."
   },
   "popupPowerSwitchInfo":{
-    "message":"Klako: malŝalti\/ŝalti uBlock₀ por ĉi tiu retejo.\n\nStir+klako: malŝalti uBlock₀ nur en ĉi tiu paĝo.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Klako: malŝalti\/ŝalti simpleBlock por ĉi tiu retejo.\n\nStir+klako: malŝalti simpleBlock nur en ĉi tiu paĝo.",
+    "description":"English: Click: disable\/enable simpleBlock for this site.\n\nCtrl+click: disable simpleBlock only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"blokitaj petoj",
@@ -288,7 +288,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Ĉi tiu opcio ŝaltas la analizadon kaj eltrudadon de la <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kongruaj &ldquo;elementokaŝadaj&rdquo; filtriloj<\/a>. Ĉi tiuj filtriloj estas nur ornama kaj servas por kaŝi elementojn en retpaĝoj kiuj estas opiniite vidaj ĝenaĵoj kaj ne blokeblaj de la reta peta filtrado.<\/p><p>Ŝalti ĉi tiun trajton pligrandigas la memoruzadon de uBlock₀.<\/p>",
+    "message":"<p>Ĉi tiu opcio ŝaltas la analizadon kaj eltrudadon de la <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kongruaj &ldquo;elementokaŝadaj&rdquo; filtriloj<\/a>. Ĉi tiuj filtriloj estas nur ornama kaj servas por kaŝi elementojn en retpaĝoj kiuj estas opiniite vidaj ĝenaĵoj kaj ne blokeblaj de la reta peta filtrado.<\/p><p>Ŝalti ĉi tiun trajton pligrandigas la memoruzadon de simpleBlock.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -296,7 +296,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by uBlock₀, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of uBlock₀ itself.<p>It is recommended to enable this option on less powerful devices.",
+    "message":"<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by simpleBlock, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of simpleBlock itself.<p>It is recommended to enable this option on less powerful devices.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -428,7 +428,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Via listo de gastignomoj por kiuj uBlock₀ estos malŝaltata. Unu gastignomo por ĉiu linio. Nevalidaj gastignomoj estos ignorataj silente.",
+    "message":"Via listo de gastignomoj por kiuj simpleBlock estos malŝaltata. Unu gastignomo por ĉiu linio. Nevalidaj gastignomoj estos ignorataj silente.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -572,7 +572,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Ĉiuj viaj agordoj estos anstataŭigitaj per via savkopio kreita je {{time}} kaj uBlock₀ restartigos.\n\nĈu vi volas anstataŭigi ĉiujn de viaj ekzistantaj agordoj uzita la savkopio?",
+    "message":"Ĉiuj viaj agordoj estos anstataŭigitaj per via savkopio kreita je {{time}} kaj simpleBlock restartigos.\n\nĈu vi volas anstataŭigi ĉiujn de viaj ekzistantaj agordoj uzita la savkopio?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -580,7 +580,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Ĉiuj viaj agordoj estos forigita kaj uBlock₀ restartigos.\n\nĈu vi volas reagordi uBlock₀ al la defaŭltaj agordoj?",
+    "message":"Ĉiuj viaj agordoj estos forigita kaj simpleBlock restartigos.\n\nĈu vi volas reagordi simpleBlock al la defaŭltaj agordoj?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -588,7 +588,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Ĉu vi volas aldoni la sekvan ligilon al viaj tajloritaj listoj de filtriloj?\n\nTitolo: \"{{title}}\"\nLigilo: {{url}}",
+    "message":"simpleBlock: Ĉu vi volas aldoni la sekvan ligilon al viaj tajloritaj listoj de filtriloj?\n\nTitolo: \"{{title}}\"\nLigilo: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -625,11 +625,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"ne aktiva",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'simpleBlock (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock₀ preventis la ŝarĝadon de la sekva paĝo:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"simpleBlock preventis la ŝarĝadon de la sekva paĝo:",
+    "description":"English: simpleBlock has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Pro la sekva filtrilo",
